@@ -5,6 +5,7 @@ import Main from "./Pages/MainMain";
 import AboutUs from "./Pages/AboutUs";
 import ContactUs from "./Pages/ContactUs";
 import Login from "./Pages/Login";
+import Register from "./Pages/Register";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <React.Fragment>
             <Route path="/" element={<Login />} />
+            <Route path="/register" element={<Register/>}/>
             <Route path="/Main" element={<Main />}>
               <Route path="aboutus" element={<AboutUs />} />
               <Route path="contactus" element={<ContactUs />} />
