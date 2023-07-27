@@ -52,7 +52,7 @@ button{
   font-size: 16px;
   border-radius: 16px;
   box-shadow: 0.2em 0.2em 0.7em rgba(0, 0, 0, 0.452);
-  transition: background-color 0.5 ease-out;
+  transition: background-color 0.3s ease-out;
 }
 button:hover{
   background-color: #FFC300;
