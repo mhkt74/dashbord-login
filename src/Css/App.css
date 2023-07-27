@@ -19,5 +19,59 @@ body {
 input {
   width: 200px;
   height: 35px;
+  border-radius: 16px;
+  border: none;
+  background-color: rgba(127, 255, 212, 0.322);
+  padding: 8px;
+  box-shadow: 0.2em 0.2em 0.7em rgba(0, 0, 0, 0.452), inset 0 0 0.7em rgba(163, 241, 215, 0.178);
+}
+input:focus{
+  outline: none;
+  background-color: rgba(251, 255, 254, 0.322);
+}
 
+label{
+  font-size: small;
+  margin-bottom: 5px;
+}
+
+button{
+  cursor:pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  padding: 8px;
+  background-color: #FF8400;
+  width: 200px;
+  border: none;
+  font-size: 16px;
+  border-radius: 16px;
+  box-shadow: 0.2em 0.2em 0.7em rgba(0, 0, 0, 0.452);
+}
+button:hover{
+  background-color: #FFC300;
+  color: white;
+}
+a {
+ text-decoration: none;
+ color:black
+}
+a:hover{
+  text-decoration: underline;
+  color: #494949;
+  cursor: pointer;
+}
+
+.font-size-25{
+  font-size: 25px !important;
+}
+.font-size-20{
+  font-size: 20px !important;
+}
+.font-size-18{
+  font-size: 18px !important;
+}
+.font-size-14{
+  font-size: 14px !important;
 }
