@@ -40,13 +40,13 @@
     background-color: #585d61;
 }
 .name-user{
-    margin: 0 0 0 25px;
+    margin: 0 0 0 20px;
     color: white;
     cursor: pointer;
 }
 .avatar{
-    width: 40px !important;
-    height: 40px !important;
+    width: 35px !important;
+    height: 35px !important;
     color: white;
     cursor: pointer
 }

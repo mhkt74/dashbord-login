@@ -1,0 +1,40 @@
+.Sidebar {
+    margin-top: 75px;
+    position: fixed;
+    right: 0;
+}
+
+.icon-filter {
+    width: 35px;
+    height: 35px;
+    border-radius: 16px 0px 0px 16px;
+    position: absolute;
+}
+
+.icon-filter-open {
+    transition: transform 0.5s ease-in-out;
+    transform: translate(-275px);
+}
+
+.icon-filter-close {
+    transition: transform 0.5s ease-in-out;
+    transform: translate(0px);
+}
+
+.open-filter {
+    width: 275px;
+    padding: 10px;
+    background-color: rgba(242, 207, 63, 1);
+    transition: transform 0.5s ease-in-out;
+    transform: translate(0px);
+    box-shadow: 0.1em 0.2em 0.2em rgba(0, 0, 0, 0.452);
+}
+
+.close-filter {
+    width: 275px;
+    padding: 10px;
+    background-color: rgba(140, 138, 142, 1);
+    transition: transform 0.5s ease-in-out;
+    transform: translate(275px);
+    box-shadow: 0.1em 0.2em 0.2em rgba(0, 0, 0, 0.452);
+}

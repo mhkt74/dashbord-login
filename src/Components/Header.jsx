@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="Header">
       <div className="rigth-header">
-        <Link className="text-header" to="#">
+        <Link className="text-header" to="/main">
           خانه
         </Link>
         <Link className="text-header" to="about-us">
