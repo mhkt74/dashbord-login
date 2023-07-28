@@ -50,8 +50,6 @@ function Login() {
  
   }
 
-  console.log(userNameError);
-  console.log(passwordError);
   return (
     <div className="Login">
       <span className="name-god font-size-25">به نام او و برای او</span>

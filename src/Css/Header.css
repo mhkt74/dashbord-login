@@ -1,0 +1,52 @@
+.Header{
+    width: 100%;
+    height: 75px;
+    background-color: #3A4750;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.rigth-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+.left-header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width:inherit;
+    height: 50px;
+    width: 20%;
+}
+.text-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white ;
+    height: 50px;
+    padding: 5px;
+    margin: 0 10px;
+    width: 95px;
+    border-radius: 2px;
+}
+.text-header:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #585d61;
+}
+.name-user{
+    margin: 0 0 0 25px;
+    color: white;
+    cursor: pointer;
+}
+.avatar{
+    width: 40px !important;
+    height: 40px !important;
+    color: white;
+    cursor: pointer
+}
