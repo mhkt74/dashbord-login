@@ -1,5 +1,7 @@
 import React from "react";
-import "../Css/Register.css"
+import "../Css/Register.css";
+import { Link } from "react-router-dom";
+
 function Register() {
   return (
     <div className="Register">
@@ -18,7 +20,9 @@ function Register() {
           <label htmlFor="password">رمزعبور</label>
           <input type="password" id="password" />
         </div>
-        <button className="button-register">ثبت نام</button>
+        <Link className="button-login-link button-login" to="/main">
+          ثبت نام
+        </Link>
       </div>
     </div>
   );
