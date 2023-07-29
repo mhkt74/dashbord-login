@@ -1,4 +1,5 @@
 import React from "react";
+import "../Css/MainMain.css"
 import { Outlet } from "react-router-dom";
 import Sidebar from "../Components/Sidebar";
 import Header from "../Components/Header";
@@ -10,10 +11,8 @@ function MainMain() {
       <div>
         <Header />
       </div>
-      <div>
+      <div className="page-edit">
         <Sidebar />
-      </div>
-      <div>
         <Dashbord />
       </div>
       <div>

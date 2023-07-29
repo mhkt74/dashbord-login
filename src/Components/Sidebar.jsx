@@ -17,10 +17,31 @@ function Sidebar() {
       </div>
       <div className={filter ? "open-filter" : "close-filter"}>
         <div className="checkbox-size">
-
+          <a className="title-filter">
+            فیلتر های مورد نظر خود را انتخاب کنید :
+          </a>
         </div>
         <div>
-
+          <label class="text-filter">
+            موبایل
+            <input type="checkbox"/>
+            <span class="checkmark"></span>
+          </label>
+          <label class="text-filter">
+            تلویزیون
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="text-filter">
+            یخچال
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
+          <label class="text-filter">
+           ماشین لباسشویی
+            <input type="checkbox" />
+            <span class="checkmark"></span>
+          </label>
         </div>
       </div>
     </div>
