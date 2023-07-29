@@ -1,7 +1,7 @@
 import React from "react";
 import "../Css/Header.css";
 import { Link } from "react-router-dom";
-import Avatar from "../Assets/image/SVG/Avatar"
+import Avatar from "../Assets/image/SVG/Avatar";
 function Header() {
   return (
     <div className="Header">
@@ -22,8 +22,9 @@ function Header() {
       <div className="left-header">
         <p className="name-user">سلام کاربر</p>
         <div className="avatar">
-          <Avatar/>
-          </div>
+          <Avatar />
+        </div>
+        <Link className="text-header" to="/">خروج</Link>
       </div>
     </div>
   );
