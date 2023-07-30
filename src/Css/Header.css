@@ -9,11 +9,14 @@
     top: 0;
     right: 0;
 }
-.rigth-header{
+.rigth-header-des{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80%;
+}
+.rigth-header-Mobile{
+    display: none;
 }
 .left-header{
     display: flex;
@@ -49,4 +52,17 @@
     height: 35px !important;
     color: white;
     cursor: pointer
+}
+@media screen and (max-width:992px) {
+    .rigth-header-des{
+        display: none;
+    }
+    .rigth-header-Mobile{
+        display: flex;
+        width: 50%;
+    }
+    .left-header{  
+        width: 50%;
+    }
+
 }
