@@ -3,7 +3,7 @@ import "../Css/Header.css";
 import { Link } from "react-router-dom";
 import Avatar from "../Assets/image/SVG/Avatar";
 function Header() {
-  const [checked, setChecked] = useState();
+  const [checked, setChecked] = useState(false);
   const handleChecked = (e) => {
     setChecked(e.target.checked)
   }
@@ -27,13 +27,11 @@ function Header() {
         <div className="rigth-header-Mobile">
           <nav>
             <div class="navbar">
-              <div class="container nav-container">
-                <input class="checkbox" type="checkbox" onChange={(e) => handleChecked(e)} name="menu" id="" />
-                <div class="hamburger-lines">
-                  <span class="line line1"></span>
-                  <span class="line line2"></span>
-                  <span class="line line3"></span>
-                </div>
+              <input class="checkbox" type="checkbox" onChange={(e) => handleChecked(e)} name="menu" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
               </div>
             </div>
           </nav>
@@ -48,7 +46,7 @@ function Header() {
           </Link>
         </div>
       </div>
-      <div class={checked ? "menu-items-true" : "menu-items-false"}>
+      <div class={checked ? "menu-items-true teansition-header" : "menu-items-false teansition-header"}>
         <Link className="text-header-mobile" to="/main">
           خانه
         </Link>
